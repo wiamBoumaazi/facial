@@ -33,7 +33,7 @@ if opt.verbose:
 
 from skimage.io import imsave
 
-img_root = '../examples/test_image/'+opt.test_id_name
+img_root = '../examples/rendering/'+opt.test_id_name
 if not os.path.exists(img_root):
     os.makedirs(img_root)
 
